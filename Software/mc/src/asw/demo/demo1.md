@@ -29,3 +29,5 @@ In mode 2,
 In mode 3, 
 - if the button is pressed longer than 3 seconds, it will go back to mode 0.
 - if the button is pressed shorter than 0.5 second, it will go to mode 0.
+
+There should be no case that the LED is turned on for an un-intended short time.
