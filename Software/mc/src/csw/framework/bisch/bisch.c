@@ -2,7 +2,7 @@
  * this is a task scheduler based on a binary algorithm */
 
 #include "bisch.h"
-#include "common/inc/cswtypes.h"
+#include "common/cswtypes.h"
 
 typedef struct
 {
