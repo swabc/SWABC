@@ -1,3 +1,6 @@
 [submodule "Software/mc/src/csw/3rdParty/STM32F4xx_StdPeriph_Driver"]
 	path = Software/mc/src/csw/3rdParty/STM32F4xx_StdPeriph_Driver
 	url = https://github.com/swabc/STM32F4xx_StdPeriph_Driver.git
+[submodule "Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver"]
+	path = Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver
+	url = https://github.com/swabc/STM32F0xx_StdPeriph_Driver.git
