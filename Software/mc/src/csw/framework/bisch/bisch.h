@@ -24,6 +24,9 @@ extern void bisch_main(void);
  */
 extern void bisch_tickUpIsr(void);
 
+/* task init, will be called in bisch init to init all the tasks. */
+extern void bisch_r_init(void);
+
 /* idle task, will be called if the time slice is not end. */
 extern void bisch_r_taskIdle(void);
 

@@ -1,6 +1,8 @@
 #ifndef __DEMO_0_H
 #define __DEMO_0_H
 
+#include "csw/common/cswtypes.h"
+
 /* initialization of this module, 
  * called by system init after POR */
 extern void demo0_init(void);

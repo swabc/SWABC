@@ -2,7 +2,7 @@
  * this is a task scheduler based on a binary algorithm */
 
 #include "bisch.h"
-#include "common/cswtypes.h"
+#include "csw/common/cswtypes.h"
 
 typedef struct
 {
@@ -30,6 +30,8 @@ void bisch_init(void)
   bisch.input.tick = 0;
   bisch.local.tick = 0;
   bisch.local.cycle = 0;
+
+  bisch_r_init();
 }
 
 /* task scheduler main function,
