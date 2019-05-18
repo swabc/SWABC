@@ -10,12 +10,6 @@ extern void demo0_init(void);
  * handle the most of the functional logics */
 extern void demo0_task(void);
 
-/* required input interface,
- * this module gets the button state by calling this interface.
- * return value: TRUE - the button is pressed
- *               FALSE - the button is not pressed or unknown */
-extern bool demo0_ri_getButtonState(void);
-
 /* required output interface,
  * this module turns the LED on/off by calling this interface.
  * argument state: TRUE - the LED will turns on,
