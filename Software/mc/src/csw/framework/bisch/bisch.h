@@ -24,6 +24,9 @@ extern void bisch_main(void);
  */
 extern void bisch_tickUpIsr(void);
 
+/* idle task, will be called if the time slice is not end. */
+extern void bisch_r_taskIdle(void);
+
 /* X1 task, will be scheduled every time after the tick update. */
 extern void bisch_r_taskX1(void);
 
