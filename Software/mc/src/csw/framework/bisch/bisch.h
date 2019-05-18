@@ -20,8 +20,36 @@ extern void bisch_main(void);
  * then this function is called,
  * the cycle is the time slice of the task scheduler.
  * it can be called from interrupt subroutine.
+ * usually the cycle could be less than 10ms.
  */
 extern void bisch_tickUpIsr(void);
+
+/* X1 task, will be scheduled every time after the tick update. */
+extern void bisch_r_taskX1(void);
+
+/* X2 task, will be scheduled every 2 times of the tick update. */
+extern void bisch_r_taskX2(void);
+
+/* X4 task, will be scheduled every 4 times of the tick update. */
+extern void bisch_r_taskX4(void);
+
+/* X8 task, will be scheduled every 8 times of the tick update. */
+extern void bisch_r_taskX8(void);
+
+/* X16 task, will be scheduled every 16 times of the tick update. */
+extern void bisch_r_taskX16(void);
+
+/* X32 task, will be scheduled every 32 times of the tick update. */
+extern void bisch_r_taskX32(void);
+
+/* X64 task, will be scheduled every 64 times of the tick update. */
+extern void bisch_r_taskX64(void);
+
+/* X128 task, will be scheduled every 128 times of the tick update. */
+extern void bisch_r_taskX128(void);
+
+/* X256 task, will be scheduled every 256 times of the tick update. */
+extern void bisch_r_taskX256(void);
 
 #endif // __BISCH_H
 
