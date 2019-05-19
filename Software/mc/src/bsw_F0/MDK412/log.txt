@@ -6,22 +6,22 @@
 *         STM32F0xx_Clock_Configuration_V1.0.1.xls
 * Author  MCD Application Team
 * Version V1.0.1
-* Date    18-May-2019
-* Time    21:56:13
+* Date    19-May-2019
+* Time    19:18:44
 ********************************************************************************
 
 ================================================================================
                       Selected System Clock Configuration
 ================================================================================
-System Clock source                    : PLL(HSE)
+System Clock source                    : PLL(HSI)
 SYSCLK(Hz)                             : 48000000
 HCLK(Hz)                               : 48000000
 AHB Prescaler                          : 1
 PB1 Prescaler                          : 1
 APB2 Prescaler                         : 1
 HSI Frequency(Hz)                      : 8000000
-HSE Frequency(Hz)                      : 12000000
-PLLMULL                                : 4
+HSE Frequency(Hz)                      : 8000000
+PLLMULL                                : 12
 PREDIV1                                : 1
 ================================================================================
 
@@ -49,7 +49,7 @@ PLLMULL                                : 12
 SYSCLK(Hz)                             : 48000000
 HCLK(Hz)                               : 48000000
 AHB Prescaler                          : 1
-PLLMULL                                : 4
+PLLMULL                                : 6
 PREDIV                                 : 1
 
 ================================================================================
@@ -58,26 +58,8 @@ PREDIV                                 : 1
 SYSCLK(Hz)                             : 48000000
 HCLK(Hz)                               : 48000000
 AHB Prescaler                          : 1
-PLLMULL                                : 8
-PREDIV                                 : 2
-
-================================================================================
-                       Case 5: System Clock source: PLL(HSE)
-================================================================================
-SYSCLK(Hz)                             : 48000000
-HCLK(Hz)                               : 48000000
-AHB Prescaler                          : 1
 PLLMULL                                : 12
-PREDIV                                 : 3
-
-================================================================================
-                       Case 6: System Clock source: PLL(HSE)
-================================================================================
-SYSCLK(Hz)                             : 48000000
-HCLK(Hz)                               : 48000000
-AHB Prescaler                          : 1
-PLLMULL                                : 16
-PREDIV                                 : 4
+PREDIV                                 : 2
 
 ================================================================================
 
