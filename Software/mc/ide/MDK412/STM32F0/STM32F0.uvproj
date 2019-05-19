@@ -476,11 +476,6 @@
               <FilePath>..\..\..\src\bsw_F0\MDK412\main.c</FilePath>
             </File>
             <File>
-              <FileName>stm32f0xx_it.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\src\bsw_F0\MDK412\stm32f0xx_it.c</FilePath>
-            </File>
-            <File>
               <FileName>system_stm32f0xx.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\src\bsw_F0\MDK412\system_stm32f0xx.c</FilePath>
@@ -489,6 +484,23 @@
         </Group>
         <Group>
           <GroupName>BSW/MSP</GroupName>
+          <Files>
+            <File>
+              <FileName>mcu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\src\bsw_F0\msp\mcu.c</FilePath>
+            </File>
+            <File>
+              <FileName>mdo.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\src\bsw_F0\msp\mdo.c</FilePath>
+            </File>
+            <File>
+              <FileName>mvect.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\src\bsw_F0\msp\mvect.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>BSW/BSP</GroupName>
