@@ -14,7 +14,7 @@ typedef struct
   struct
   {
     uint8 tick; // tick follow up to the external input
-	uint8 cycle;  // schedule counter
+    uint8 cycle;  // schedule counter
   }
   local;
 }
@@ -40,31 +40,34 @@ void bisch_init(void)
  */
 void bisch_main(void)
 {
-  /* check if tick is updated */
-  if( bisch.local.tick == bisch.input.tick )
+  for(;;)
   {
-    /* not updated, run idle */
-	bisch_r_taskIdle();
-  }
-  else
-  {
-    /* updated */
-    bisch.local.tick = bisch.input.tick;
+    /* check if tick is updated */
+    if( bisch.local.tick == bisch.input.tick )
+    {
+      /* not updated, run idle */
+      bisch_r_taskIdle();
+    }
+    else
+    {
+      /* updated */
+      bisch.local.tick = bisch.input.tick;
 
-	/* cycle up */
-	bisch.local.cycle++;
+      /* cycle up */
+      bisch.local.cycle++;
 
-	/* schedule tasks */
-	bisch_r_taskX1();
-	if( bisch.local.cycle & 0x01 ) bisch_r_taskX2();
-	else if( bisch.local.cycle & 0x02 ) bisch_r_taskX4();
-	else if( bisch.local.cycle & 0x04 ) bisch_r_taskX8();
-	else if( bisch.local.cycle & 0x08 ) bisch_r_taskX16();
-	else if( bisch.local.cycle & 0x10 ) bisch_r_taskX32();
-	else if( bisch.local.cycle & 0x20 ) bisch_r_taskX64();
-	else if( bisch.local.cycle & 0x40 ) bisch_r_taskX128();
-	else if( bisch.local.cycle & 0x80 ) bisch_r_taskX256();
-	else ; /* reserve for cpu load calculation */
+      /* schedule tasks */
+      bisch_r_taskX1();
+      if( bisch.local.cycle & 0x01 ) bisch_r_taskX2();
+      else if( bisch.local.cycle & 0x02 ) bisch_r_taskX4();
+      else if( bisch.local.cycle & 0x04 ) bisch_r_taskX8();
+      else if( bisch.local.cycle & 0x08 ) bisch_r_taskX16();
+      else if( bisch.local.cycle & 0x10 ) bisch_r_taskX32();
+      else if( bisch.local.cycle & 0x20 ) bisch_r_taskX64();
+      else if( bisch.local.cycle & 0x40 ) bisch_r_taskX128();
+      else if( bisch.local.cycle & 0x80 ) bisch_r_taskX256();
+      else ; /* reserve for cpu load calculation */
+    }
   }
 }
 
