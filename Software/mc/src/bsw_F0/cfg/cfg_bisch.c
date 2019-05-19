@@ -1,8 +1,20 @@
 #include "csw/framework/bisch/bisch.h"
 #include "inc/api.h"
+#include "../msp/mcu.h"
+#include "../msp/mdo.h"
 
 void bisch_r_init(void)
 {
+  /* basic */
+  mcu_init();
+  mdo_init();
+  mcu_initTick();
+
+  /* csw */
+
+  /* bsw */
+
+  /* asw */
   bsw_r_init();
 }
 
