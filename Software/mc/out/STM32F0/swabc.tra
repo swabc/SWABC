@@ -1,0 +1,42 @@
+*** Creating Trace Output File '.\out\swabc.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\out\startup_stm32f072.o"'
+### List of Objects: adding '".\out\stm32f0xx_adc.o"'
+### List of Objects: adding '".\out\stm32f0xx_can.o"'
+### List of Objects: adding '".\out\stm32f0xx_dbgmcu.o"'
+### List of Objects: adding '".\out\stm32f0xx_dma.o"'
+### List of Objects: adding '".\out\stm32f0xx_exti.o"'
+### List of Objects: adding '".\out\stm32f0xx_flash.o"'
+### List of Objects: adding '".\out\stm32f0xx_gpio.o"'
+### List of Objects: adding '".\out\stm32f0xx_misc.o"'
+### List of Objects: adding '".\out\stm32f0xx_rcc.o"'
+### List of Objects: adding '".\out\stm32f0xx_syscfg.o"'
+### List of Objects: adding '".\out\stm32f0xx_tim.o"'
+### List of Objects: adding '".\out\stm32f0xx_usart.o"'
+### List of Objects: adding '".\out\bisch.o"'
+### List of Objects: adding '".\out\main.o"'
+### List of Objects: adding '".\out\system_stm32f0xx.o"'
+### List of Objects: adding '".\out\mcu.o"'
+### List of Objects: adding '".\out\mdo.o"'
+### List of Objects: adding '".\out\mvect.o"'
+### List of Objects: adding '".\out\cfg_bisch.o"'
+### List of Objects: adding '".\out\demo0.o"'
+### List of Objects: adding '".\out\cfg_demo0.o"'
+### List of Objects: adding '".\out\cfg_demo1.o"'
+### List of Objects: adding '".\out\cfg_bsw.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\out\startup_stm32f072.o" ".\out\stm32f0xx_adc.o" ".\out\stm32f0xx_can.o" ".\out\stm32f0xx_dbgmcu.o" ".\out\stm32f0xx_dma.o" ".\out\stm32f0xx_exti.o" ".\out\stm32f0xx_flash.o" ".\out\stm32f0xx_gpio.o" ".\out\stm32f0xx_misc.o" ".\out\stm32f0xx_rcc.o" ".\out\stm32f0xx_syscfg.o" ".\out\stm32f0xx_tim.o" ".\out\stm32f0xx_usart.o" ".\out\bisch.o" ".\out\main.o" ".\out\system_stm32f0xx.o" ".\out\mcu.o" ".\out\mdo.o" ".\out\mvect.o" ".\out\cfg_bisch.o" ".\out\demo0.o" ".\out\cfg_demo0.o" ".\out\cfg_demo1.o" ".\out\cfg_bsw.o" --library_type=microlib --strict --scatter ".\out\swabc.sct" 
+--diag_suppress=L6329 --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\lst\swabc.map" -o ".\out\swabc.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\out\swabc.axf'
+### ADS-LD Command File: '.\out\swabc.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\out\swabc.lnp', Handle=0x00000840
+### Writing '.lnp' file
+### ADS-LD Command file '.\out\swabc.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

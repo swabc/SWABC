@@ -1,0 +1,4 @@
+--cpu Cortex-M0 ".\out\startup_stm32f072.o" ".\out\stm32f0xx_adc.o" ".\out\stm32f0xx_can.o" ".\out\stm32f0xx_dbgmcu.o" ".\out\stm32f0xx_dma.o" ".\out\stm32f0xx_exti.o" ".\out\stm32f0xx_flash.o" ".\out\stm32f0xx_gpio.o" ".\out\stm32f0xx_misc.o" ".\out\stm32f0xx_rcc.o" ".\out\stm32f0xx_syscfg.o" ".\out\stm32f0xx_tim.o" ".\out\stm32f0xx_usart.o" ".\out\bisch.o" ".\out\main.o" ".\out\system_stm32f0xx.o" ".\out\mcu.o" ".\out\mdo.o" ".\out\mvect.o" ".\out\cfg_bisch.o" ".\out\demo0.o" ".\out\cfg_demo0.o" ".\out\cfg_demo1.o" ".\out\cfg_bsw.o" --library_type=microlib --strict --scatter ".\out\swabc.sct" 
+--diag_suppress=L6329 --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\lst\swabc.map" -o ".\out\swabc.axf"
