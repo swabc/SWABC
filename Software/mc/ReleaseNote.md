@@ -1,4 +1,4 @@
-# V0.0.1
+# V0.0.1 Finished.
 
 1 LED blink, with cycle of 512ms (256ms on, 256ms off).
 
