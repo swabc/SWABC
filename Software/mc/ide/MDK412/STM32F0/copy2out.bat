@@ -1,0 +1,1 @@
+copy /Y out\swabc.* ..\..\..\out\STM32F0\
