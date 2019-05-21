@@ -1,0 +1,227 @@
+20:37:00 **** Incremental Build of configuration Debug for project swabc ****
+make -j4 all 
+Building file: ../csw/framework/bisch/bisch.c
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_adc.c
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_can.c
+Invoking: MCU GCC Compiler
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_cec.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/framework/bisch/bisch.d" -MT"csw/framework/bisch/bisch.o" -o "csw/framework/bisch/bisch.o" "../csw/framework/bisch/bisch.c"
+C:\swabc\SWABC\Software\mc\src\Debug
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_adc.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_adc.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_adc.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_adc.c"
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_can.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_can.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_can.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_can.c"
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_cec.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_cec.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_cec.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_cec.c"
+Finished building: ../csw/framework/bisch/bisch.c
+ 
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_comp.c
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_comp.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_comp.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_comp.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_comp.c"
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_cec.c
+ 
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_adc.c
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_can.c
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_crc.c
+ 
+ 
+Invoking: MCU GCC Compiler
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_crs.c
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dac.c
+C:\swabc\SWABC\Software\mc\src\Debug
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_crc.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_crc.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_crc.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_crc.c"
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_crs.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_crs.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_crs.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_crs.c"
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dac.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dac.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dac.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dac.c"
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_comp.c
+ 
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dbgmcu.c
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dbgmcu.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dbgmcu.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dbgmcu.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dbgmcu.c"
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_crc.c
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_crs.c
+ 
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dac.c
+ 
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dma.c
+ 
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_exti.c
+Invoking: MCU GCC Compiler
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_flash.c
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dma.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dma.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dma.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dma.c"
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_exti.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_exti.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_exti.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_exti.c"
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_flash.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_flash.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_flash.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_flash.c"
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dbgmcu.c
+ 
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_gpio.c
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_gpio.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_gpio.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_gpio.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_gpio.c"
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_dma.c
+ 
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_exti.c
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_i2c.c
+ 
+Invoking: MCU GCC Compiler
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_iwdg.c
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_flash.c
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_i2c.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_i2c.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_i2c.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_i2c.c"
+Invoking: MCU GCC Compiler
+ 
+C:\swabc\SWABC\Software\mc\src\Debug
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_misc.c
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_iwdg.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_iwdg.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_iwdg.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_iwdg.c"
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_misc.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_misc.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_misc.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_misc.c"
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_gpio.c
+ 
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_pwr.c
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_pwr.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_pwr.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_pwr.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_pwr.c"
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_iwdg.c
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_i2c.c
+ 
+ 
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_rcc.c
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_rtc.c
+Invoking: MCU GCC Compiler
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_misc.c
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+ 
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_rcc.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_rcc.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_rcc.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_rcc.c"
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_rtc.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_rtc.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_rtc.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_rtc.c"
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_spi.c
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_spi.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_spi.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_spi.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_spi.c"
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_pwr.c
+ 
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_syscfg.c
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_syscfg.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_syscfg.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_syscfg.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_syscfg.c"
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_rcc.c
+ 
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_rtc.c
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_tim.c
+ 
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_spi.c
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_usart.c
+Invoking: MCU GCC Compiler
+ 
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+Building file: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_wwdg.c
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_tim.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_tim.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_tim.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_tim.c"
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_usart.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_usart.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_usart.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_usart.c"
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_wwdg.d" -MT"csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_wwdg.o" -o "csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_wwdg.o" "../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_wwdg.c"
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_syscfg.c
+ 
+Building file: ../bsw_F0/msp/mcu.c
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"bsw_F0/msp/mcu.d" -MT"bsw_F0/msp/mcu.o" -o "bsw_F0/msp/mcu.o" "../bsw_F0/msp/mcu.c"
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_usart.c
+ 
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_wwdg.c
+Building file: ../bsw_F0/msp/mdo.c
+ 
+Invoking: MCU GCC Compiler
+Building file: ../bsw_F0/msp/mvect.c
+Finished building: ../csw/3rdParty/STM32F0xx_StdPeriph_Driver/src/stm32f0xx_tim.c
+C:\swabc\SWABC\Software\mc\src\Debug
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"bsw_F0/msp/mdo.d" -MT"bsw_F0/msp/mdo.o" -o "bsw_F0/msp/mdo.o" "../bsw_F0/msp/mdo.c"
+ 
+C:\swabc\SWABC\Software\mc\src\Debug
+Building file: ../bsw_F0/cfg/cfg_bisch.c
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"bsw_F0/msp/mvect.d" -MT"bsw_F0/msp/mvect.o" -o "bsw_F0/msp/mvect.o" "../bsw_F0/msp/mvect.c"
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"bsw_F0/cfg/cfg_bisch.d" -MT"bsw_F0/cfg/cfg_bisch.o" -o "bsw_F0/cfg/cfg_bisch.o" "../bsw_F0/cfg/cfg_bisch.c"
+Finished building: ../bsw_F0/msp/mcu.c
+ 
+Building file: ../bsw_F0/MDK412/main.c
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+Finished building: ../bsw_F0/msp/mvect.c
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"bsw_F0/MDK412/main.d" -MT"bsw_F0/MDK412/main.o" -o "bsw_F0/MDK412/main.o" "../bsw_F0/MDK412/main.c"
+ 
+Building file: ../bsw_F0/MDK412/system_stm32f0xx.c
+Finished building: ../bsw_F0/msp/mdo.c
+Invoking: MCU GCC Compiler
+Finished building: ../bsw_F0/cfg/cfg_bisch.c
+ 
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"bsw_F0/MDK412/system_stm32f0xx.d" -MT"bsw_F0/MDK412/system_stm32f0xx.o" -o "bsw_F0/MDK412/system_stm32f0xx.o" "../bsw_F0/MDK412/system_stm32f0xx.c"
+ 
+Building file: ../bsw_F0/AC6/startup_stm32.s
+Building file: ../asw/demo/demo0.c
+Invoking: MCU GCC Assembler
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-as -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -g -o "bsw_F0/AC6/startup_stm32.o" "../bsw_F0/AC6/startup_stm32.s"
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"asw/demo/demo0.d" -MT"asw/demo/demo0.o" -o "asw/demo/demo0.o" "../asw/demo/demo0.c"
+Finished building: ../bsw_F0/MDK412/main.c
+ 
+Building file: ../asw/cfg/cfg_bsw.c
+Finished building: ../bsw_F0/AC6/startup_stm32.s
+Invoking: MCU GCC Compiler
+ 
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"asw/cfg/cfg_bsw.d" -MT"asw/cfg/cfg_bsw.o" -o "asw/cfg/cfg_bsw.o" "../asw/cfg/cfg_bsw.c"
+Finished building: ../asw/demo/demo0.c
+Building file: ../asw/cfg/cfg_demo0.c
+ 
+Invoking: MCU GCC Compiler
+Finished building: ../bsw_F0/MDK412/system_stm32f0xx.c
+Building file: ../asw/cfg/cfg_demo1.c
+C:\swabc\SWABC\Software\mc\src\Debug
+ 
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"asw/cfg/cfg_demo0.d" -MT"asw/cfg/cfg_demo0.o" -o "asw/cfg/cfg_demo0.o" "../asw/cfg/cfg_demo0.c"
+Invoking: MCU GCC Compiler
+C:\swabc\SWABC\Software\mc\src\Debug
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F0 -DSTM32F072C8Tx -DDEBUG -DSTM32F072 -DUSE_STDPERIPH_DRIVER -I"C:/swabc/SWABC/Software/mc/src" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0" -I"C:/swabc/SWABC/Software/mc/src/bsw_F0/MDK412" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/STM32F0xx_StdPeriph_Driver/inc" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Include" -I"C:/swabc/SWABC/Software/mc/src/csw/3rdParty/ARM_CMSIS/Device/ST/STM32F0xx/Include" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"asw/cfg/cfg_demo1.d" -MT"asw/cfg/cfg_demo1.o" -o "asw/cfg/cfg_demo1.o" "../asw/cfg/cfg_demo1.c"
+Finished building: ../asw/cfg/cfg_bsw.c
+ 
+Finished building: ../asw/cfg/cfg_demo0.c
+ 
+Finished building: ../asw/cfg/cfg_demo1.c
+ 
+Building target: swabc.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -T"C:/swabc/SWABC/Software/mc/src/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "swabc.elf" @"objects.list"   -lm
+Finished building target: swabc.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "swabc.elf" "swabc.bin"
+arm-none-eabi-size "swabc.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3108	   1104	   1100	   5312	   14c0	swabc.elf
+ 
+
+20:37:18 Build Finished (took 17s.734ms)
+
