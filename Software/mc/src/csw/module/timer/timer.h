@@ -17,6 +17,7 @@ extern void timer_task(timer_t * t);
 
 extern void timer_start(timer_t * t);
 extern void timer_stop(timer_t * t);
+extern uint8 timer_isActive(timer_t * t);
 extern uint8 timer_isTimeOut(timer_t * t);
 
 #endif // __TIMER_H
